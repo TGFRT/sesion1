@@ -51,7 +51,7 @@
             </div>
             <ul class="nav-links">
                 <li class="active"><i class="fa-solid fa-shop"></i> Perfil General</li>
-                <li onclick="if(estadoGlobal.negocio_id) { window.open('../creacion de webs/index.html?restaurant=' + encodeURIComponent(document.getElementById('navNombreNegocio').innerText), '_blank'); } else { showToast('Por favor espera a que cargue el perfil.', 'error'); }" style="color:var(--accent);"><i class="fa-solid fa-earth-americas"></i> Ir a Tienda Online Activa</li>
+                <li onclick="if(estadoGlobal.negocio_id) { window.open('./tienda/index.html?restaurant=' + encodeURIComponent(document.getElementById('navNombreNegocio').innerText), '_blank'); } else { showToast('Por favor espera a que cargue el perfil.', 'error'); }" style="color:var(--accent);"><i class="fa-solid fa-earth-americas"></i> Ir a Tienda Online Activa</li>
             </ul>
             <button id="btnLogout" class="btn btn-danger btn-block" style="margin-top: auto;"><i class="fa-solid fa-right-from-bracket"></i> Salir</button>
         </nav>

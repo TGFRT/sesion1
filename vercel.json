@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/tienda/(.*)",
+      "destination": "/tienda/index.html"
+    },
+    {
+      "source": "/((?!index\\.html|style\\.css|script\\.js|tienda).*[^/])",
+      "destination": "/tienda/index.html"
+    }
+  ]
+}
