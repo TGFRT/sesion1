@@ -1,7 +1,8 @@
 services:
-  - type: static
+  - type: web
     name: panel-clientes
-    publishPath: ./
+    runtime: static
+    staticPublishPath: ./
     routes:
       - type: rewrite
         source: /*
