@@ -1,0 +1,8 @@
+services:
+  - type: static
+    name: panel-clientes
+    publishPath: ./
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /tienda/index.html
